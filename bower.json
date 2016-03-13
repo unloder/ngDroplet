@@ -1,11 +1,10 @@
 {
-  "name": "ng-droplet",
-  "version": "0.5.16",
-  "homepage": "https://github.com/Wildhoney/ngDroplet",
+  "name": "ng-droplet-extended",
+  "version": "0.5.16e",
   "authors": [
-    "Adam Timberlake <adam.timberlake@gmail.com>"
+    "ORIGINAL : Adam Timberlake <adam.timberlake@gmail.com>"
   ],
-  "description": "Angular.js HTML5 file uploading with drag & drop and image/file preview.",
+  "description": "personal edited version of ngDroplet",
   "main": "dist/ng-droplet.min.js",
   "keywords": [
     "image",

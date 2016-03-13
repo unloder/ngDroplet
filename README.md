@@ -1,19 +1,7 @@
-# ngDroplet
+# ngDroplet-extended
 
-The [original Droplet module](https://github.com/Wildhoney/EmberDroplet) was created by me for Ember.js &ndash; `ngDroplet` is the Angular.js version. `ngDroplet` allows you to easily support drag and drop uploading in Angular.js &ndash; with additional sugar for uploading and managing files.
+FORK OF ngDroplet by Wildhoney
 
-![Travis](http://img.shields.io/travis/Wildhoney/ngDroplet.svg?style=flat)
-&nbsp;
-![npm](http://img.shields.io/npm/v/ng-droplet.svg?style=flat)
-&nbsp;
-![License MIT](http://img.shields.io/badge/License-MIT-lightgrey.svg?style=flat)
-&nbsp;
-![IE10+](http://img.shields.io/badge/support-IE10-blue.svg?style=flat)
-
-* **Heroku**: [http://ng-droplet.herokuapp.com/](http://ng-droplet.herokuapp.com/)
-* **Bower:** `bower install ng-droplet`
-
-![ngDroplet Screenshot](http://i.imgur.com/ORaiV2l.jpg)
 
 ---
 
@@ -218,3 +206,4 @@ interface.defineHTTPSuccess([/2.{2}/, 301, 302]);
 * `$dropletError`: Emitted when an error has occurred;
 * `$dropletFileAdded`: Emitted when a file has been added;
 * `$dropletFileDeleted`: Emitted when a file has been deleted;
+* `$dropletFilesProcessed`: All dropped files finished being processed, if broadcasted once per drop;
